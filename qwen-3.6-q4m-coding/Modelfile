@@ -1,0 +1,7 @@
+FROM qwen3.6
+
+# 32k tokens context window
+PARAMETER num_ctx 32768
+
+# disabling tokens limit
+PARAMETER num_predict -1
