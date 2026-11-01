@@ -1,0 +1,7 @@
+FROM its_the_jisoo/qwen3.6-27B-uncensored-hauhaucs-balanced
+
+# 32k tokens context window
+PARAMETER num_ctx 4096
+
+# disabling tokens limit
+PARAMETER num_predict -1
