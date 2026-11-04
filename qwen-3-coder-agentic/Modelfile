@@ -1,0 +1,7 @@
+FROM rafw007/qwen36-a3b-claude-coder
+
+# 32k tokens context window
+PARAMETER num_ctx 131072
+
+# disabling tokens limit
+PARAMETER num_predict -1

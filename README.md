@@ -14,7 +14,5 @@ models
 
 
 
-# ollama create qwen3.6claude -f qwen-3.6-claude-coder/Modelfile
-
-
+# ollama create qwen3.6opencode -f qwen-3.6-claude-coder/Modelfile
 
